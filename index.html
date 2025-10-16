@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WanderWorld - Travel & Tourism</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero Section with Background Video -->
+  <header class="hero">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="videos/background.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <nav>
+      <div class="logo">WanderWorld</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content" id="home">
+      <h1>Discover the World with Us</h1>
+      <p>Explore breathtaking destinations and unforgettable adventures.</p>
+      <a href="#destinations" class="btn">Start Exploring</a>
+    </div>
+  </header>
+
+  <!-- Destinations Carousel Section -->
+  <section id="destinations" class="content-section destinations-carousel">
+    <h2>Top Destinations</h2>
+    <div class="carousel-container">
+      <button class="carousel-btn left">&#10094;</button>
+      <div class="destination-slider">
+        <div class="destination-card">
+          <img src="images/paris.png" alt="Paris" />
+          <h3>Paris, France</h3>
+        </div>
+        <div class="destination-card">
+          <img src="images/bali.png" alt="Bali" />
+          <h3>Bali, Indonesia</h3>
+        </div>
+        <div class="destination-card">
+          <img src="images/basel.png" alt="Rome" />
+          <h3>Basel, Switzerland</h3>
+        </div>
+        <div class="destination-card">
+          <img src="images/tokyo.png" alt="Tokyo" />
+          <h3>Tokyo, Japan</h3>
+        </div>
+        <div class="destination-card">
+          <img src="images/dubai.png" alt="Cairo" />
+          <h3>Dubai, UAE</h3>
+        </div>
+        <div class="destination-card">
+          <img src="images/seoul.png" alt="London" />
+          <h3>Seoul, South Korea </h3>
+        </div>        <div class="destination-card">
+          <img src="images/hong kong.png" alt="London" />
+          <h3>Hong Kong, China </h3>
+        </div>
+        <div class="destination-card">
+          <img src="images/ottawa.png" alt="London" />
+          <h3>Ottawa, Canada </h3>
+        </div>
+      </div>
+      <button class="carousel-btn right">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Video Gallery Section -->
+  <section id="gallery" class="content-section video-gallery">
+    <h2>Travel Moments</h2>
+    <div class="video-grid">
+      <video controls autoplay muted loop>
+        <source src="videos/travel1.mp4" type="video/mp4" />
+      </video>
+      <video controls autoplay muted loop>
+        <source src="videos/travel2.mp4" type="video/mp4" />
+      </video>
+      <video controls autoplay muted loop>
+        <source src="videos/travel3.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="content-section about">
+    <h2>About</h2>
+    <p>
+      Travel is your trusted travel companion, helping you explore the most exciting destinations across the globe.
+      Whether you seek adventure, relaxation, or culture, we’ve got you covered.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content-section contact">
+    <h2>Contact Us</h2>
+    <p>Plan your next adventure today!</p>
+    <a href="mailto:info@wanderworld.com" class="btn">Get in Touch</a>
+  </section>
+
+  <footer>
+    <p>© 2025. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
